@@ -28,7 +28,7 @@ function testAuth(user, pass) {
 }
 
 function getData(token) {
-  let url = "https://desolate-basin-28826.herokuapp.com/api";
+  let url = "https://desolate-basin-28826.herokuapp.com/api/truc";
   let request = {
     method: "GET",
     headers: {
